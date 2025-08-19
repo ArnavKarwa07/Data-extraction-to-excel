@@ -1,0 +1,25 @@
+# Core dependencies
+pandas>=1.5.0
+openpyxl>=3.0.0
+numpy>=1.20.0
+
+# PDF processing
+pdf2image>=3.1.0
+pytesseract>=0.3.10
+Pillow>=9.0.0
+pdfplumber>=0.7.0
+tabula-py>=2.5.0
+camelot-py[cv]>=0.10.0
+
+# Image processing
+opencv-python>=4.7.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# Optional for better performance
+pymupdf>=1.20.0  # Alternative to pdfplumber
+
+# Development/Testing
+pytest>=7.0.0
+black>=22.0.0
